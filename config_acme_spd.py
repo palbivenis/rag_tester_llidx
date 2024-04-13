@@ -5,6 +5,10 @@ import os
 #LLAMA_CLOUD_API_KEY = ""
 #COHERE_API_KEY = ""
 
+OPENAI_API_KEY = "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"
+TOGETHER_API_KEY = "791b88ad42d74d2407df28271cd2f2e81602c51da02747ee5f397d07386264b1"
+LLAMA_CLOUD_API_KEY = "llx-d6R1eNupbszqFBuQWdb0TvYPTEwX2oO9u3sduNYGfoGgCWPt"
+COHERE_API_KEY = "3DGonhWxrH4Xwrfkh1L3TWfXSLSXp4S9N2ILWCpK"
 
 EVAL_NAME = "ACME_SPD" 
 EVAL_DIRECTORY = "./datasets/acme_spd/files" 
@@ -13,11 +17,11 @@ EVAL_QUESTIONS = "./datasets/acme_spd/questions/ACME_SPD_Questions.json"
 EVAL_RESULTS_DIR = "./datasets/acme_spd/evaluations/llamaindex/data"
 EVAL_QUICK_TEST = "Are bifocals covered?"
 
-GENERATION_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
-GENERATION_LLM_MODEL = "gpt-4" # gpt-4, command-r
+GENERATION_LLM_FAMILY = "COHERE" # OPENAI, COHERE
+GENERATION_LLM_MODEL = "command-r" # gpt-4, command-r
 
-EMBEDDING_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
-EMBEDDING_LLM_MODEL = "text-embedding-3-large" # text-embedding-3-large, embed-english-v3.0
+EMBEDDING_LLM_FAMILY = "COHERE" # OPENAI, COHERE
+EMBEDDING_LLM_MODEL = "embed-english-v3.0" # text-embedding-3-large, embed-english-v3.0
 EMBEDDING_DIMESIONS = 1024
 
 EVALUATION_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
