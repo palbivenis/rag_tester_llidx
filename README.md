@@ -30,7 +30,16 @@ Examine the effects of the changing parameters on various RAG metrics (correctne
 - Run notebook
 
 #### Evaluation Output ####
+- Each run will generate responses for each question. 
+- In addition, an LLM is used to evaluate the response
+  - Currently evaluators from Llamaindex and DeepEval are supported
+  - The evaluator LLM can also be configured in config.py
 - Each notebook run will create an xlsx file under evaluations/llamaindex/data with the name
-- \<data_set\>\_\<strategy\>\_GM\_\<generation LLM\>\_EM\_\<embedding LLM\>\_\<parameters\>\_\<run date\>.xlsx
+  - \<data_set\>\_\<strategy\>\_GM\_\<generation LLM\>\_EM\_\<embedding LLM\>\_\<parameters\>\_\<run date\>.xlsx
+  - The xlsx has the following tabs
+    - Response -> Generated response for each question along with various RAG metrics (correctness, faithfulness)
+    - Sources -> The chunks that were sent by the retriever to the LLM for generation
+    - Summary -> Some summarized RAG metrics
+    - Separate tabs for each RAG metric
 - analysis folder contains Tableau files that provide analysis across runs
 - the .twbx file is a read-only file that can be viewed by the free [Tableau Reader](https://www.tableau.com/products/reader)
