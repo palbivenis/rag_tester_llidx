@@ -13,6 +13,12 @@ Examine the effects of the changing parameters on various RAG metrics (correctne
 - Fusion Retriever
   - Weights assign to vector search vs. keyword search
 
+#### Data sets ####
+- Available under datasets. For each data set
+- files -> contains the document(s) that will be ingested
+- questions -> evaluation questions (along with expected answers). In spreadsheet and json format
+- evaluations/llamaindex -> contains results of evaluation runs
+
 #### Running Evaluations ####
 - Make the following updates to config.py
     - Enter your API keys
@@ -24,4 +30,7 @@ Examine the effects of the changing parameters on various RAG metrics (correctne
 - Run notebook
 
 #### Evaluation Output ####
-- 
+- Each notebook run will create an xlsx file under evaluations/llamaindex/data with the name
+- <data_set>_<strategy>_GM_<genaration LLM>_EM_<embedding LLM>_<parameters>_<run date>
+- analysis folder contains Tableau files that provide analysis across runs
+- the .twbx file is a read-only file that can be viewed by the free [Tableau Reader](https://www.tableau.com/products/reader)
