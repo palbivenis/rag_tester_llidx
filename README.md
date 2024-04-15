@@ -31,6 +31,6 @@ Examine the effects of the changing parameters on various RAG metrics (correctne
 
 #### Evaluation Output ####
 - Each notebook run will create an xlsx file under evaluations/llamaindex/data with the name
-- <data_set>_<strategy>_GM_<genaration LLM>_EM_<embedding LLM>_<parameters>_<run date>
+- \<data_set\>\_\<strategy\>\_GM\_\<generation LLM\>\_EM\_\<embedding LLM\>\_\<parameters\>\_\<run date\>.xlsx
 - analysis folder contains Tableau files that provide analysis across runs
 - the .twbx file is a read-only file that can be viewed by the free [Tableau Reader](https://www.tableau.com/products/reader)
