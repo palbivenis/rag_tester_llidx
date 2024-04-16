@@ -1,6 +1,6 @@
 ### Rag Tester using Llamaindex RAG framework ###
 
-Conduct evaluations of rag strategies against various data sets
+Conduct evaluations of rag strategies against various data set
 
 #### Strategies supported ####
 Examine the effects of the changing parameters on various RAG metrics (correctness, faithfulness etc.)
