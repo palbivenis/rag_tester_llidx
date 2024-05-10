@@ -5,4 +5,8 @@ llama-index-retrievers-bm25
 llama-index-postprocessor-cohere-rerank
 llama-index-llms-cohere
 llama_index.embeddings.cohere
+llama-index-readers-file
 pandas
+cohere
+openai
+openpyxl

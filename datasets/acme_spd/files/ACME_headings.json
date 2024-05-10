@@ -1,0 +1,518 @@
+{
+    "Effective Date": {},
+    "Eligible Employees": {
+        "FULL & PART TIME EMPLOYEES": {},
+        "INPATRIATES": {}
+    },
+    "Eligible Dependents": {
+        "ELIGIBLE SPOUSE": {},
+        "QUALIFIED DOMESTIC PARTNER": {},
+        "QUALIFIED DOMESTIC PARTNER INCOME TAXES": {
+            "Tax and Imputed Income": {},
+            "Federal & State Tax Treatment": {},
+            "California Employees": {}
+        }, 
+        "QUALIFIED DOMESTIC PARTNER FEDERAL TAX DEPENDENT": {},
+        "ELIGIBLE CHILDREN": {},
+        "QUALIFIED MEDICAL CHILD SUPPORT ORDER (QMCSO)": {},
+        "ACME EMPLOYEES IN THE SAME FAMILY": {},
+        "RIGHT TO RESCIND COVERAGE": {}
+    },
+    "Employee Cost To Participate": {
+        "ACME S COST SUBSIDY CREDITS FOR LIFE/AD&D AND LONG TERM DISABILITY": {}
+    },
+    "Enrollment Information": {
+        "MINIMUM REQUIRED COVERAGE": {},
+        "DEFAULT COVERAGE": {},
+        "DECLINING OR WAIVING COVERAGE": {}
+    },
+    "When Coverage Begins": {
+        "EFFECTIVE DATE OF CHANGE": {}
+    },
+    "Pre-Existing Conditions": {},
+    "Qualified Family Status Change (FSC) Changes": {
+        "CONSISTENCY RULE": {},
+        "EFFECTIVE DATE OF BENEFIT CHANGES": {},
+        "LIST OF QUALIFIED FAMILY STATUS CHANGES": {},
+        "SPECIAL ENROLLMENT CIRCUMSTANCES": {},
+        "NEWBORN AND OTHER NEWLY ACQUIRED CHILDREN": {},
+        "REPORTING A QUALIFIED FAMILY STATUS CHANGE": {}
+    },
+    "Open Enrollment": {},
+    "Medical Plans": {
+        "MEDICAL PLANS - SERVICE AREAS": {}
+    },
+    "UnitedHealthcare Medical Plans": {
+        "PROVIDER NETWORKS": {
+    
+            "Provider Network Names": {},
+            "Services Without a Viable Provider Network": {},
+            "Eligible Expenses": {},
+            "Advocacy Services": {},
+            "Health Services from Non-Network Providers Paid as Network Benefits": {},
+            "Network Provider Termination": {}
+        },
+        "UnitedHealthcare - HSA Medical Plan": {
+            "High Deductible Health Plan (HDHP)": {},
+            "Health Savings Account (HSA)": {},
+            "ACME s HSA Contribution (Seed)": {},
+            "HSA Personal Contributions": {}
+        },
+        "UnitedHealthcare - PPO Medical Plans": {
+            "UHC Premium PPO Plan": {},
+            "UHC Medium PPO Plan": {}
+        },
+        "UnitedHealthcare EPO Medical Plan": {},
+        "UnitedHealthcare - Harvard Pilgrim Passport Medical Plan": {},
+        "UnitedHealthcare - Out of Area Medical Plans": {},
+        "UnitedHealthcare Medical Plans - Prior Authorization": {
+            "Prior Authorization Who is Responsible?": {},
+            "Covered Health Services Requiring Prior Authorization": {}
+        },
+        "UnitedHealthcare - Health Advocacy and Support Programs": {
+            "NURSELINESM - SPEAK WITH A NURSE": {},
+            "DEDICATED NURSE ADVOCATES (DNA)": {},
+            "COMPLEX AND CHRONIC CONDITIONS": {},
+            "DIABETES MANAGEMENT PLUS THROUGH LIVONGO": {},
+            "MATERNITY SUPPORT PROGRAM": {},
+            "NEONATAL RESOURCE SERVICES (NRS)": {},
+            "MYUHC.COM": {},
+            "HEALTH4ME: UNITEDHEALTHCARE MOBILE APP": {},
+            "RALLY: ONLINE HEALTH AND WELLNESS TOOL": {},
+            "EMPLOYEE ASSISTANCE PROGRAM (EAP)": { 
+                "EAP Benefits and Limits": {},
+                "EAP Online Resources": {},
+                "EAP Cost Of Benefits": {}
+            }
+        },
+        "Kaiser Permanente HMO Plans": {},
+        "Covered Health Services - UnitedHealthcare Medical Plans": {
+            "List of Covered Health Services (In Alphabetical Order)": {
+                "ACUPUNCTURE": {},
+                "ALLERGY TESTING": {},
+                "ALLERGY TREATMENT": {},
+                "AMBULANCE SERVICE AIR AND GROUND (EMERGENCY)": {},
+                "AMBULANCE SERVICE AIR AND GROUND (NON-EMERGENCY)": {},
+                "ANESTHETICS AND OXYGEN": {},
+                "ARTIFICIAL LIMBS AND EYES": {},
+                "AUTISM SPECTRUM DISORDER (AUTISM)": {},
+                "AUTISM COVERED HEALTH SERVICES (MEDICAL)": {},
+                "AUTISM COVERED HEALTH SERVICES (MENTAL HEALTH)": {},
+                "BIRTH CONTROL DEVICES/ORAL CONTRACEPTIVES": {},
+                "BIRTHING CENTER": {},
+                "BREAST PUMPS": {},
+                "CANCER RESOURCE SERVICES": {},
+                "CELLULAR AND GENE THERAPY": {},
+                "CHIROPRACTIC CARE": {},
+                "COCHLEAR IMPLANTS": {},
+                "CLINICAL TRIALS": {},
+                "CONTRACEPTION METHODS AND COUNSELING": {},
+                "CONVALESCENT CARE": {},
+                "CRANIAL BAND/HELMET": {},
+                "DENTAL SERVICES ACCIDENTAL ONLY": {},
+                "DENTAL SURGERY ANESTHESIA ACCIDENTAL ONLY": {},
+                "DOCTOR (PHYSICIAN) OFFICE VISITS": {},
+                "DURABLE MEDICAL EQUIPMENT (DME)": {},
+                "EMERGENCY SERVICES": {
+    
+                    "Emergency Notification Requirement": {},
+                    "Emergency Services (Non-US)": {},
+                    "Non-Emergency Services (Non-US)": {}
+                },
+                "ENTERAL NUTRITION": {},
+                "FAMILY PLANNING": {},
+                "FERTILITY": {},
+                "GENDER DYSPHORIA": {},
+                "GYNECOMASTIA": {},
+                "HEARING AIDS": {},
+                "HOME HEALTH CARE": {},
+                "HOSPICE CARE": {},
+                "HOSPICE CARE AGENCY": {},
+                "HOSPITAL": {},
+                "HYPERHIDROSIS": {},
+                "IMMUNIZATIONS": {},
+                "INJECTIONS IN A PHYSICIANS OFFICE": {},
+                "MAMMOGRAMS": {},
+                "MATERNITY CARE": {},
+                "MENTAL HEALTH BENEFITS": {
+                    "Mental Health Medical Plan Coverage": {}
+                },
+                "MENTAL HEALTH SERVICES FOR AUTISM SPECTRUM DISORDER": {},
+                "MENTAL HEALTH, NEUROBIOLOGICAL DISORDERS, AND SUBSTANCE-RELATED AND ADDICTIVE \nDISORDERS SERVICES": {
+                    "Covered Mental Health Services": {},
+                    "What is Covered Under Mental Health Services": {},
+                    "Substance-Related and Addictive Disorders Covered Health Services": {}
+                },
+                "NON-OCCUPATIONAL INJURY OR DISEASE": {},
+                "NUTRITIONAL COUNSELING": {},
+                "OBESITY SURGERY": {},
+                "ORAL SURGERY": {},
+                "ORAL SURGERY ANESTHESIA": {},
+                "ORTHOGNATHIC SURGERY": {},
+                "ORTHOTICS": {},
+                "OSTOMY SUPPLIES": {},
+                "OUTPATIENT PRE-ADMISSION TESTING": {},
+                "OUTPATIENT SURGERY, DIAGNOSTIC, AND THERAPEUTIC SERVICES": {},
+                "OUTPATIENT - LAB, X-RAY AND DIAGNOSTIC": {},
+                "OUTPATIENT - LAB, X-RAY AND MAJOR DIAGNOSTICS - CT, PET SCANS, MRI, MRA AND NUCLEAR \nMEDICINE": {},
+                "OUTPATIENT SURGERY": {},
+                "OUTPATIENT THERAPEUTIC": {},
+                "PALLIATIVE CARE SERVICES": {},
+                "PHYSICIAN FEES FOR SURGICAL AND MEDICAL SERVICES": {},
+                "PHYSICIANS OFFICE SERVICES": {},
+                "PREIMPLANTATION GENETIC TESTING": {},
+                "PRESCRIPTION DRUGS":{
+                    "OptumRx": {},
+                    "ID Card": {},
+                    "Network & Non-Network Pharmacies": {},
+                    "Prescriptions Category Tiers": {},
+                    "Preferred Drug List (PDL) and Tier Changes": {},
+                    "PDL Tier Factors": {},
+                    "Rebates and Other Discounts": {},
+                    "Prescriptions Plan Coverage": {},
+                    "Prescriptions - HSA Medical Plan": {},
+                    "Prescriptions Covered Health Services": {},
+                    "Maintenance Medications": {},
+                    "Specialty Medications": {},
+                    "Prior Authorization Requirements": {},
+                    "Prior Authorization Instructions": {}
+                },
+                "PREVENTIVE CARE": {
+                    "Network Preventive Care": {},
+                    "Preventive Care Services (Adults)": {},
+                    "Preventive Care Services (Women)": {},
+                    "Preventive Care Services (Children)": {}
+                },
+                "PRIVATE DUTY NURSING": {},
+                "PROSTHETIC DEVICES": {},
+                "RADIOLOGIST, ANESTHESIOLOGIST AND PATHOLOGIST SERVICES (RAPS)": {},
+                "RECONSTRUCTIVE PROCEDURES": {},
+                "REHABILITATION SERVICES AND HABILITATIVE SERVICES": {},
+                "ROUTINE PHYSICAL EXAMS": {},
+                "SKILLED NURSING FACILITY/INPATIENT REHABILITATION FACILITY": {},
+                "SPINAL MANIPULATION (CHIROPRACTOR)": {},
+                "SPINE AND JOINT SURGERIES": {},
+                "TELEHEALTH (TELEMEDICINE)": {},
+                "TEMPOROMANDIBULAR JOINT DYSFUNCTION (TMJ)": {},
+                "TRANSPLANT SERVICES": {},
+                "TRAVEL AND LODGING": {},
+                "URINARY CATHETERS": {},
+                "URGENT CARE SERVICES": {},
+                "WELL-BABY/WELL-CHILD ROUTINE EXAMS": {},
+                "WIGS": {},
+                "X-RAY AND LAB SERVICES/X-RAY, RADIUM AND RADIOACTIVE ISOTOPE THERAPY": {}
+            }
+        },
+        "Plan Exclusions What Is Not Covered": {
+            "ALTERNATIVE TREATMENTS": {},
+            "AUTISM SPECTRUM DISORDER": {},
+            "COMFORT AND CONVENIENCE": {},
+            "DENTAL EXCLUSIONS": {},
+            "DRUGS": {},
+            "DURABLE MEDICAL EQUIPMENT (DME)": {},
+            "EXPERIMENTAL, INVESTIGATIONAL OR UNPROVEN SERVICES": {},
+            "FOOT CARE": {},
+            "GENDER DYSPHORIA": {},
+            "HABILITATIVE": {},
+            "MARIJUANA": {},
+            "MEDICAL SUPPLIES AND APPLIANCES": {},
+            "MENTAL HEALTH, NEUROBIOLOGICAL DISORDERS  AUTISM SPECTRUM DISORDER SERVICES AND SUBSTANCE-RELATED AND ADDICTIVE DISORDERS SERVICES": {},
+            "NUTRITION": {},
+            "PHYSICAL APPEARANCE": {},
+            "PRESCRIPTION DRUGS": {},
+            "PROVIDERS": {},
+            "REPRODUCTION": {},
+            "SERVICES PROVIDED UNDER ANOTHER PLAN": {},
+            "TRANSPLANTS": {},
+            "TRAVEL": {},
+            "VISION": {},
+            "ALL OTHER EXCLUSIONS": {}
+        },
+        "UnitedHealthcare Medical Plans - Claims Procedures": {
+            "FILING A CLAIM": {
+                "Required Information": {},
+                "Payment of Benefits": {}
+            },
+            "BENEFIT DETERMINATIONS": {
+                "Post-Service Claims": {},
+                "Pre-Service Claims": {},
+                "Urgent Claims that Require Immediate Action": {}
+            }
+        }, 
+        "Appealing A Denied Claim": {
+            "WHAT TO DO FIRST": {},
+            "HOW TO APPEAL A CLAIM DECISION": {},
+            "APPEAL PROCESS": {},
+            "APPEALS DETERMINATIONS": {},
+            "EXTERNAL REVIEW PROGRAM": {},
+            "YOUR FINAL RECOURSE AFTER EXHAUSTION OF REMEDIES": {}
+        },
+        "Coordination of Benefits UnitedHealthcare Medical Plans": {
+            "BENEFITS WHEN YOU HAVE COVERAGE UNDER MORE THAN ONE PLAN": {},
+            "WHEN DOES COORDINATION OF BENEFITS APPLY?": {},
+            "WHAT ARE THE RULES FOR DETERMINING THE ORDER OF BENEFIT PAYMENTS?": {},
+            "HOW ARE BENEFITS PAID WHEN THIS PLAN IS SECONDARY?": {},
+            "HOW IS ALLOWABLE EXPENSE DETERMINED WHEN THIS PLAN IS SECONDARY": {},
+            "WHAT IS DIFFERENT WHEN YOU QUALIFY FOR MEDICARE?": {},
+            "RIGHT TO RECEIVE AND RELEASE NEEDED INFORMATION": {},
+            "DOES THIS PLAN HAVE THE RIGHT OF RECOVERY?": {}
+        },
+        "Definitions": {
+            "ALTERNATE FACILITY": {},
+            "AIR AMBULANCE": {},
+            "ANCILLARY SERVICES": {},
+            "ANNUAL BENEFITS COMPENSATION": {},
+            "BALANCE BILLING": {},
+            "BRAND PRESCRIPTION": {},
+            "CALENDAR YEAR": {},
+            "CELLULAR THERAPY": {},
+            "CIVIL UNION": {},
+            "CLINICAL TRIAL": {},
+            "COINSURANCE": {},
+            "COMPOUND MEDICATION": {},
+            "CONGENITAL ANOMALY": {},
+            "COPAYMENT": {},
+            "COVERED HEALTH SERVICE(S) OR COVERED CHARGES": {},
+            "COVERED PERSON": {},
+            "CUSTODIAL CARE": {},
+            "DEDUCTIBLE": {},
+            "DEFINITIVE DRUG TESTING": {},
+            "DENTAL NECESSITY": {},
+            "DESIGNATED PROVIDER": {},
+            "DURABLE MEDICAL EQUIPMENT (DME)": {},
+            "ELIGIBLE EXPENSE": {},
+            "EMERGENCY": {},
+            "EMERGENCY ROOM": {},
+            "EMERGENCY HEALTH SERVICES": {},
+            "ESSENTIAL HEALTH BENEFITS": {},
+            "EXCLUSIONS (EXCLUDED SERVICES)": {},
+            "EXPERIMENTAL OR INVESTIGATIONAL SERVICES": {},
+            "FORMULARY AND NON-FORMULARY PRESCRIPTION DRUGS": {},
+            "FULL TIME EMPLOYEE": {},
+            "GENERIC PRESCRIPTION": {},
+            "GENDER DYSPHORIA": {},
+            "GENE THERAPY": {},
+            "GENETIC COUNSELING": {},
+            "GENETIC TESTING": {},
+            "GESTATIONAL CARRIER": {},
+            "IATROGENIC INFERTILITY": {},
+            "IMMUNIZATION": {},
+            "INDEPENDENT FREESTANDING EMERGENCY DEPARTMENT": {},
+            "INFERTILITY": {},
+            "INPATIENT": {},
+            "INTENSIVE BEHAVIORAL THERAPY (IBT)": {},
+            "INTENSIVE OUTPATIENT TREATMENT": {},
+            "MAINTENANCE MEDICATION": {},
+            "MAXIMUM LIFETIME BENEFIT": {},
+            "MEDICALLY NECESSARY": {},
+            "MENTAL HEALTH SERVICES": {},
+            "MENTAL ILLNESS": {},
+            "NETWORK PHARMACY": {},
+            "NETWORK PROVIDER": {},
+            "NEW PHARMACEUTICAL PRODUCT": {},
+            "NON-MEDICAL 24-HOUR WITHDRAWAL MANAGEMENT": {},
+            "NON-NETWORK PROVIDER": {},
+            "OUT-OF-NETWORK REIMBURSEMENT RATE": {},
+            "OUT-OF-POCKET MAXIMUM": {}, 
+            "OUTPATIENT": {}, 
+            "PALLIATIVE CARE": {}, 
+            "PART-TIME EMPLOYEE": {}, 
+            "PHARMACEUTICAL PRODUCT(S)": {}, 
+            "PHYSICIAN": {}, 
+            "PLAN": {}, 
+            "PLAN SPONSOR": {}, 
+            "PLAN YEAR": {}, 
+            "PREFERRED DRUG LIST (PDL)": {}, 
+            "PRESCRIPTION DRUGS": {}, 
+            "PRESUMPTIVE DRUG TEST": {}, 
+            "PREVENTIVE CARE": {}, 
+            "PRIOR AUTHORIZATION": {}, 
+            "PROVIDER": {}, 
+            "PRIVATE DUTY NURSING": {}, 
+            "REASONABLE AND CUSTOMARY (R&C)": {}, 
+            "RECOGNIZED AMOUNT": {}, 
+            "REMOTE PHYSIOLOGIC MONITORING": {}, 
+            "RESIDENTIAL TREATMENT FACILITY": {}, 
+            "SECRETARY": {}, 
+            "SKILLED NURSING": {}, 
+            "SPECIALIST": {}, 
+            "SPECIALTY MEDICATION": {}, 
+            "SUBSTANCE-RELATED AND ADDICTIVE DISORDERS SERVICES": {}, 
+            "SURROGATE": {}, 
+            "TELEHEALTH (TELEMEDICINE)": {}, 
+            "THERAPEUTIC DONOR INSEMINATION (TDI)": {}, 
+            "TOTAL DISABILITY": {}, 
+            "TRANSITIONAL LIVING": {}, 
+            "UNPROVEN SERVICES": {}, 
+            "URGENT CARE": {}, 
+            "UNITEDHEALTHCARE MEDICAL GUIDELINES": {}, 
+            "YOU / YOUR": {} 
+        }
+    },
+    "Dental Plans": {
+        "DENTAL - PLAN CHOICES": {},
+        "DENTAL - NETWORK AND NON-NETWORK PROVIDERS": {
+            "Metlife Network Provider (PDP Provider)": {},
+            "Find a MetLife PDP Provider": {}
+        },
+        "DENTAL - HOW THE PLAN WORKS": {},
+        "DENTAL REASONABLE AND CUSTOMARY (R&C)": {},
+        "DENTAL - PRE-DETERMINATION BENEFITS": {},
+        "DENTAL - COVERED SERVICES": {
+            "Preventive Services": {},
+            "Basic Services": {},
+            "Major Services": {},
+            "Orthodontic Services": {},
+            "How Orthodontia is Paid": {}
+        },
+        "REPLACEMENT RULE": {},
+        "DENTAL PLAN EXCLUSIONS - WHAT IS NOT COVERED": {},
+        "EXTENSION OF DENTAL BENEFITS": {},
+        "METLIFE DENTAL CLAIMS PROCEDURES": {
+            "Filing a Dental Plan Claim": {},
+            "Urgent Care Claims Submission": {}
+        },
+        "METLIFE DENTAL DENIED CLAIM APPEALS": {
+            "How To Appeal A Metlife Dental Claim": {}
+        },
+        "DENTAL - COORDINATION OF BENEFITS": { 
+            "Dental Determining Which Plan is Primary": {}
+        }
+    },
+    "Vision Plans": {
+        "VISION - PLAN CHOICES": {},
+        "VISION HOW THE PLAN WORKS": {
+            "ID Cards": {},
+            "How Benefits Eligibility is Determined": {}
+        },
+        "VISION - CLAIM PROCEDURES": {},
+        "VISION - PLAN EXCLUSIONS (WHAT IS NOT COVERED)": {},
+        "APPEALING A DENIED VSP CLAIM": {
+            "Initial Determination": {},
+            "Request for Appeals": {}
+        },
+        "VISION - COORDINATION OF BENEFITS": {},
+        "VISION - DETERMINING WHICH PLAN IS PRIMARY": {}
+    },
+    "Medical Second Opinion": {},
+    "Health And Dependent Care Flexible Spending Accounts (Fsas)": {
+        "GENERAL AND LIMITED HEALTH CARE FSA": {
+            "Tax Qualified Dependents": {},
+            "Section 152 Tax Dependent": {},
+            "IRS Qualifying Child": {},
+            "IRS Qualifying Relative": {},
+            "Tax Qualified Dependent": {}
+        },
+        "ANNUAL HEALTH CARE FSA ELECTION LIMIT": {},
+        "HEALTH CARE FSA - CARRYOVER PROVISION": {},
+        "HEALTH CARE FSA ELIGIBLE EXPENSES": {
+            "General Purpose Health Care FSA - Eligible Expenses": {
+                "WHAT'S NOT ELIGIBLE": {}
+            }
+        },
+        "DEPENDENT CARE FLEXIBLE SPENDING ACCOUNT": {
+            "Covered Dependent Care Flexible Spending Account Expenses": {},
+            "Whats Not Eligible": {},
+            "Your Dependent Care Flexible Spending Account Contributions": {},
+            "Health/Dependent Care FSA Qualified Expenses & Reimbursement": {}
+        },
+        "FSA DEBIT MASTERCARD": {
+        "Using Your FSA Debit MasterCard": {}
+        },
+        "USING YOUR FSA": { 
+            "Use It or Lose It (Dependent Care FSA)": {},
+            "Carryover Provision": {},
+            "FSA or Tax Deduction, Not Both": {},
+            "FSA or HSA, Not Both": {},
+            "General Purpose or Limited Purpose (Not Both)": {},
+            "Plan Year Elections": {},
+            "Increasing/Decreasing Elections": {},
+            "Claim Run-out Period": {},
+            "Monthly Health Statements and Yearly Statement": {}
+        },
+        "EFFECTIVE DATE AND COVERAGE PERIODS": {},
+        "WHEN COVERAGE ENDS": {},
+        "FLEXIBLE SPENDING ACCOUNT - AFFECT YOUR OTHER BENEFITS": {},
+        "FLEXIBLE SPENDING ACCOUNT (FSA) - CLAIM FILING": {},
+        "HEALTH CARE FSA APPEAL PROCESS": {},
+        "DEPENDENT CARE FSA APPEAL PROCESS": {}
+    },
+    "Group Term Life and Accidental Death and Dismemberment Insurance": {
+        "GROUP TERM LIFE INSURANCE": {
+            "Life Insurance Pre-Tax Options": {},
+            "Life Insurance After-Tax Options": {},
+            "Life Insurance Minimum Required Coverage": {}
+        },
+        "GROUP ACCIDENTAL DEATH AND DISMEMBERMENT (AD&D) INSURANCE": {
+            "AD&D - Pre-Tax Options": {},
+            "AD&D Minimum Required Coverage": {}
+        },
+        "LIFE INSURANCE AND AD&D - COVERAGE CHANGES": {},
+        "LIFE INSURANCE AND AD&D - BENEFICIARY DESIGNATION": {}
+    },
+    "Long Term Disability Insurance": {
+        "LONG TERM DISABILITY - PRE-TAX & AFTER-TAX OPTIONS": {
+            "Long Term Disability Three-Year Look Back": {}
+        },
+        "LONG TERM DISABILITY - MINIMUM REQUIRED COVERAGE": {}
+    },
+    "Medicare & ACME s Medical Plans": {
+        "ELIGIBILITY": {
+            "Medicare Health Savings Accounts (HSAs)": {},
+            "Medicare Coordination of Benefits": {},
+            "Kaiser Permanente HMO Plans": {}
+        }
+    },
+    "Other Important UnitedHealthcare Medical Plan Information": {
+        "REVIEW AND DETERMINE BENEFITS IN ACCORDANCE WITH UNITEDHEALTHCARE REIMBURSEMENT \nPOLICIES": {},
+        "RIGHT TO RECEIVE AND RELEASE NEEDED INFORMATION": {},
+        "PAYMENTS MADE": {},
+        "INCENTIVES TO YOU": {},
+        "REBATES AND OTHER PAYMENTS": {},
+        "RIGHT OF RECOVERY": {},
+        "IF YOU ARE INJURED THROUGH SOMEONE ELSES FAULT": {},
+        "SUBROGATION AND REIMBURSEMENT": {},
+        "PHYSICAL EXAMINATIONS": {},
+        "ASSIGNMENT OF BENEFITS PAYMENTS": {},
+        "REFUND OF OVERPAYMENTS": {}
+    },
+    "When Health Care Coverage Ends": {
+        "COVERAGE IN THE EVENT OF AN EMPLOYEE DEATH": {}
+    },
+    "Disability Extensions Under UnitedHealthcare & HPHC Passport Plans": {},
+    "Disability Extensions Under HMO Medical Plans": {},
+    "Provisions For Employees Who Are Residents Of Hawaii": {},
+    "COBRA Continuation Coverage Rights": {
+        "GENERAL": {
+            "Continuation of Coverage Options": {},
+            "What Is COBRA Continuation Coverage?": {},
+            "Who Is Entitled to Elect COBRA?": {},
+            "When Is COBRA Coverage Available?": {}
+        },
+        "ELECTING COBRA": {},
+        "HOW LONG DOES COBRA LAST?": {
+            "Disability extension of COBRA coverage": {},
+            "Second qualifying event extension of COBRA coverage": {},
+            "Medicare Extension for Spouse, Qualified Domestic Partner and Dependent Children": {},
+            "Health Care Flexible Spending Accounts (FSA) and COBRA": {}
+        },
+        "ADDITIONAL COBRA RIGHTS FOR TRADE-DISPLACED EMPLOYEES": {},
+        "COST OF COBRA COVERAGE": {},
+        "UNIFORMED SERVICES EMPLOYMENT AND REEMPLOYMENT RIGHTS ACT": {}
+    },
+    "Conversion To Individual Medical Coverage": {
+        "UNITEDHEALTHCARE: HSA MEDICAL PLAN, PPO, EPO, OR OUT-OF-AREA PLANS": {},
+        "KAISER PERMANENTE HMO": {}
+    },
+    "Legal and Administrative Information": {
+        "NAME AND ADDRESS OF EMPLOYER": {},
+        "ADMINISTRATIVE INFORMATION": {},
+        "AGENT FOR SERVICE OF LEGAL PROCESS": {}
+    },
+    "HIPAA Notice of Privacy Practices": {
+        "YOUR CHOICES": {}
+    },
+    "Contact Us": {},
+    "Directory Of Plans And Administrators": {},
+    "Execution": {}
+}
