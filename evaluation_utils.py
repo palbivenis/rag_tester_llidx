@@ -5,7 +5,10 @@ import pandas as pd
 import numpy as np
 from llama_index.core.evaluation import EvaluationResult
 
-
+from collections import defaultdict
+from typing import List
+from concurrent import futures
+from tqdm import tqdm
 
 
 def get_answers_source_nodes(responses)->Tuple[list, list]:
@@ -98,3 +101,28 @@ def get_eval_results_df(
     )
     
     return deep_df
+
+
+def threadpool_map(f, args_list: List[dict], num_workers: int = 64, return_exceptions: bool = True) -> list:
+    """
+    Same as ThreadPoolExecutor.map with option of returning exceptions. Returns results in the same
+    order as input `args_list`.
+    """
+    results = {}
+    with tqdm(total=len(args_list)) as progress_bar:
+        with futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
+            futures_dict = {executor.submit(f, **args): ind for ind, args in enumerate(args_list)}
+            for future in futures.as_completed(futures_dict):
+                ind = futures_dict[future]
+                try:
+                    results[ind] = future.result()
+                except Exception as e:
+                    if return_exceptions:
+                        results[ind] = e
+                    else:
+                        raise
+                progress_bar.update(1)
+
+    # Reorders the results to be in the same order as the input
+    results = [results[ind] for ind in range(len(results))]
+    return results

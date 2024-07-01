@@ -4,33 +4,45 @@ import os
 #TOGETHER_API_KEY = ""
 #LLAMA_CLOUD_API_KEY = ""
 #COHERE_API_KEY = ""
+#ANTHROPIC_API_KEY = ""
+#GOOGLE_API_KEY = ""
+#LANGCHAIN_API_KEY = ""
 
-EVAL_NAME = "ACME_SPD_MINI" 
-EVAL_DIRECTORY = "./datasets/acme_spd/files" 
-EVAL_FILE = "./datasets/acme_spd/files/ACME_SPD.pdf"
-EVAL_QUESTIONS = "./datasets/acme_spd/questions/ACME_SPD_Questions_Mini.json"
-EVAL_RESULTS_DIR = "./datasets/acme_spd/evaluations/llamaindex/data"
+
+EVAL_NAME = "ITPEU_SPD_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/itpeu_spd/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/itpeu_spd/files/md/ITPEU_SPD.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_Q.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/itpeu_spd"
 EVAL_QUICK_TEST = "Are bifocals covered?"
 
-GENERATION_LLM_FAMILY = "COHERE" # OPENAI, COHERE
-GENERATION_LLM_MODEL = "command-r" # gpt-4, command-r
+# OPENAI, COHERE, ANTHROPIC, GOOGLE, META, QWEN
+GENERATION_LLM_FAMILY = "ANTHROPIC" 
 
-EMBEDDING_LLM_FAMILY = "COHERE" # OPENAI, COHERE
-EMBEDDING_LLM_MODEL = "embed-english-v3.0" # text-embedding-3-large, embed-english-v3.0
+# gpt-4o, command-r, command-r-plus, claude-3-5-sonnet-20240620, models/gemini-1.5-pro, 
+# meta-llama/Llama-3-70b-chat-hf, Qwen/Qwen2-72B-Instruct
+GENERATION_LLM_MODEL = "claude-3-5-sonnet-20240620"
+
+# OPENAI, COHERE, GOOGLE
+EMBEDDING_LLM_FAMILY = "OPENAI" 
+
+# text-embedding-3-large, embed-english-v3.0, models/text-embedding-004
+EMBEDDING_LLM_MODEL = "text-embedding-3-large" 
 EMBEDDING_DIMESIONS = 1024
 
 EVALUATION_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
-EVALUATION_LLM_MODEL = "gpt-4-0125-preview" # gpt-4-0125-preview, command-r
+EVALUATION_LLM_MODEL = "gpt-4-0125-preview" # gpt-4o, gpt-4-0125-preview
 
-RAG_STRATEGY = "S003_00"
+RAG_STRATEGY = "S007_00"
 
 # Common Setting
 CHUNK_SIZE = 512
-SIMILARITY_TOP_K = 3
+SIMILARITY_TOP_K = 100
 SIMILARITY_CUTOFF = 0.2 
 
 #Reranker settings
 RERANKER = "COHERE" #Will add others later
+RERANKER_MODEL = "rerank-english-v3.0"
 RERANK_TOP_N = 10
 
 # S002 -> Sentence Window Retriever Settings
@@ -44,8 +56,24 @@ SUB_CHUNK_SIZES = "128_256_512"
 RETRIEVER_WEIGHTS = "0.5_0.5"
 FUSION_RERANKER = "reciprocal_rerank" # reciprocal_rerank, relative_score, dist_based_score, simple
 
+# Standard Langchain prompt
+rag_prompt_lc_01 = """You are an assistant for question-answering tasks. 
+Use the retrieved context, consisting of these documents, to answer the question. 
+If you don't know the answer, just say that you don't know. 
+Provide a detailed response, but do not invent stuff
+\nContext: {context}
+\nQuestion: {question}
+"""
 
-EVAL_RESULTS_FILE = "F:/rag_sdk/datasets/acme_spd/evaluations/data/ACME_SPD_MINI_2024-05-05.xlsx"
+# Standard Cohere preamble
+rag_prompt_coh_01 = """## Task & Context
+You are an expert Human Resources assistant that helps employees answer questions about company policies. \
+Use the provided documents to answer questions about an employee's specific situation.
+
+## Style Guide
+- Think step by step, provide evidence and/or reasoning first, then the answer."""
+
+RAG_PROMPT_TEMPLATE = rag_prompt_lc_01
 
 def set_environment():
     variable_dict = globals().items()
