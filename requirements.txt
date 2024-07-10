@@ -1,4 +1,5 @@
-llama-index-core
+llama-index
+#llama-index-core
 llama-index-llms-openai
 deepeval
 llama-index-retrievers-bm25
@@ -13,3 +14,5 @@ lama-index-llms-anthropic
 llama-index-llms-together
 llama-index-llms-gemini
 llama-index-embeddings-gemini
+
+

@@ -9,18 +9,19 @@ import os
 #LANGCHAIN_API_KEY = ""
 
 
-EVAL_NAME = "ITPEU_SPD_01" 
-EVAL_DIRECTORY = "F:/rag_sdk/datasets/itpeu_spd/files/md" 
-EVAL_FILE = "F:/rag_sdk/datasets/itpeu_spd/files/md/ITPEU_SPD.md"
-EVAL_QUESTIONS = "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_Q.xlsx"
-EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/itpeu_spd"
-EVAL_QUICK_TEST = "Are bifocals covered?"
 
-# OPENAI, COHERE, ANTHROPIC, GOOGLE, META, QWEN
+EVAL_NAME = "CMP_COMP_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_comp/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_comp/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_comp/questions/CMP_COMP_01_Q.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_comp"
+EVAL_QUICK_TEST = "Who is our workers comp provider?"
+
+# OPENAI, COHERE, ANTHROPIC, GOOGLE, META, QWEN, MISTRALAI
 GENERATION_LLM_FAMILY = "ANTHROPIC" 
 
 # gpt-4o, command-r, command-r-plus, claude-3-5-sonnet-20240620, models/gemini-1.5-pro, 
-# meta-llama/Llama-3-70b-chat-hf, Qwen/Qwen2-72B-Instruct
+# meta-llama/Llama-3-70b-chat-hf, Qwen/Qwen2-72B-Instruct, mistralai/Mixtral-8x22B-Instruct-v0.1
 GENERATION_LLM_MODEL = "claude-3-5-sonnet-20240620"
 
 # OPENAI, COHERE, GOOGLE
@@ -37,7 +38,7 @@ RAG_STRATEGY = "S007_00"
 
 # Common Setting
 CHUNK_SIZE = 512
-SIMILARITY_TOP_K = 100
+SIMILARITY_TOP_K = 30
 SIMILARITY_CUTOFF = 0.2 
 
 #Reranker settings
@@ -55,6 +56,12 @@ SUB_CHUNK_SIZES = "128_256_512"
 # S004 -> Fusion Retriever Settings
 RETRIEVER_WEIGHTS = "0.5_0.5"
 FUSION_RERANKER = "reciprocal_rerank" # reciprocal_rerank, relative_score, dist_based_score, simple
+
+
+#S008 -> Black Box 
+
+BB_OUTPUT_FILE = "F:/rag_sdk/scratch/ACME_SPD_01_OCI_TXT.xlsx"
+
 
 # Standard Langchain prompt
 rag_prompt_lc_01 = """You are an assistant for question-answering tasks. 
