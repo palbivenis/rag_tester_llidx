@@ -1,0 +1,336 @@
+
+ACME SPD
+=========
+PDF
+---
+EVAL_NAME = "ACME_SPD_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/acme_spd/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/acme_spd/files/md/ACME_SPD.pdf"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/acme_spd"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+
+Markdown
+--------
+EVAL_NAME = "ACME_SPD_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/acme_spd/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/acme_spd/files/pdf/ACME_SPD.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/acme_spd"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+EVAL_DB = "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/acme_spd/prompts" 
+
+
+Chunk Analyzer
+--------------
+input_file = "F:/rag_sdk/datasets/acme_spd/files/md/ACME_SPD.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/acme_spd/ACME_SPD_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/acme_spd/ACME_SPD_chunk_analysis.xlsx"
+
+Albertsons Union Benefits
+=========================
+PDF
+----
+EVAL_NAME = "ALB_UNION_BEN_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/alb_union_ben/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/alb_union_ben/files/md/ALB_UNION_BEN.pdf"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/alb_union_ben/questions/ALB_UNION_BEN_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/alb_union_ben"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+
+Markdown
+----------
+EVAL_NAME = "ALB_UNION_BEN_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/alb_union_ben/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/alb_union_ben/files/md/ALB_UNION_BEN.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/alb_union_ben/questions/ALB_UNION_BEN_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/alb_union_ben"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+EVAL_DB = "F:/rag_sdk/datasets/alb_union_ben/db/ALB_UNION_BEN_01_007_OAI"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/alb_union_ben/prompts" 
+
+Chunk Analyzer
+--------------
+input_file = "F:/rag_sdk/datasets/alb_union_ben/files/md/ALB_UNION_BEN.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/alb_union_ben/ALB_UNION_BEN_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/alb_union_ben/ALB_UNION_BEN_chunk_analysis.xlsx"
+
+Albertsons Non Union Benefits
+=========================
+PDF
+----
+EVAL_NAME = "ALB_NON_UNION_BEN_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/alb_non_union_ben/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/alb_non_union_ben/files/pdf/ALB_NON_UNION_BEN.pdf"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/alb_non_union_ben/questions/ALB_NON_UNION_BEN_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/alb_non_union_ben"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+
+Markdown
+----------
+EVAL_NAME = "ALB_NON_UNION_BEN_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/alb_non_union_ben/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/alb_non_union_ben/files/md/ALB_NON_UNION_BEN.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/alb_non_union_ben/questions/ALB_NON_UNION_BEN_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/alb_non_union_ben"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+EVAL_DB = "F:/rag_sdk/datasets/alb_non_union_ben/db/ALB_NON_UNION_BEN_01_007_OAI"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/alb_non_union_ben/prompts" 
+
+
+Chunk Analyzer
+--------------
+input_directory = "F:/rag_sdk/datasets/alb_non_union_ben/files/md"
+#input_file = "F:/rag_sdk/datasets/alb_non_union_ben/files/md/ALB_NON_UNION_BEN.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/alb_non_union_ben/ALB_NON_UNION_BEN_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/alb_non_union_ben/ALB_NON_UNION_BEN_chunk_analysis.xlsx"
+
+ITPEU SPD
+=========
+PDF
+---
+EVAL_NAME = "ITPEU_SPD_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/itpeu_spd/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/alb_non_union_ben/files/pdf/ITPEU_SPD.pdf"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/itpeu_spd"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+
+Markdown
+----------
+EVAL_NAME = "ITPEU_SPD_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/itpeu_spd/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/itpeu_spd/files/md/ITPEU_SPD.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/itpeu_spd"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+EVAL_DB = "F:/rag_sdk/datasets/itpeu_spd/db/ITPEU_SPD_01_01_007_OAI"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/itpeu_spd/prompts" 
+
+Chunk Analyzer
+--------------
+input_file = "F:/rag_sdk/datasets/itpeu_spd/files/md/ITPEU_SPD.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/itpeu_spd/ITPEU_SPD_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/itpeu_spd/ITPEU_SPD_chunk_analysis.xlsx"
+
+Kaiser NW Plan
+==============
+PDF
+---
+EVAL_NAME = "KAI_NW_PLAN_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/kai_nw_plan/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/kai_nw_plan/files/pdf/KAI_NW_PLAN.pdf"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/kai_nw_plan/questions/KAI_NW_PLAN_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/kai_nw_plan"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+
+Markdown
+----------
+EVAL_NAME = "KAI_NW_PLAN_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/kai_nw_plan/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/kai_nw_plan/files/md/KAI_NW_PLAN.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/kai_nw_plan/questions/KAI_NW_PLAN_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/kai_nw_plan"
+EVAL_QUICK_TEST = "Are bifocals covered?"
+
+EVAL_DB = "F:/rag_sdk/datasets/kai_nw_plan/db/KAI_NW_PLAN_01_007_OAI"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/kai_nw_plan/prompts" 
+
+Chunk Analyzer
+--------------
+input_file = "F:/rag_sdk/datasets/kai_nw_plan/files/md/KAI_NW_PLAN.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/kai_nw_plan/KAI_NW_PLAN_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/kai_nw_plan/KAI_NW_PLAN_chunk_analysis.xlsx"
+
+Cmp Leave
+=========
+PDF
+---
+EVAL_NAME = "CMP_LEAVE_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_leave/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_leave/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_leave/questions/CMP_LEAVE_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_leave"
+EVAL_QUICK_TEST = "Can I take time off to care for my cousin?"
+
+Markdown
+--------
+EVAL_NAME = "CMP_LEAVE_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_leave/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_leave/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_leave/questions/CMP_LEAVE_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_leave"
+EVAL_QUICK_TEST = "Can I take time off to care for my cousin?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_leave/db/CMP_LEAVE_01_OAI"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_leave/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/cmp_leave/files/md"
+#input_file = "F:/rag_sdk/datasets/cmp_leave/files/md/KAI_NW_PLAN.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_leave/CMP_LEAVE_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_leave/CMP_LEAVE_chunk_analysis.xlsx"
+
+Cmp KA
+===============
+EVAL_NAME = "CMP_KA_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_ka/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_ka/files/md/*.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_ka/questions/CMP_KA_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_ka"
+EVAL_QUICK_TEST = "How do I create my first job requision?"
+
+EVAL_DB = "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_ka/prompts" 
+
+
+Cmp OT Emp
+=========
+PDF
+---
+EVAL_NAME = "CMP_OT_EMP_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_ot_emp/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_ot_emp/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_ot_emp/questions/CMP_OT_EMP_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_ot_emp"
+EVAL_QUICK_TEST = "I'm part time. Is overtime based on what I normally work?"
+
+Markdown
+--------
+EVAL_NAME = "CMP_OT_EMP_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_ot_emp/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_ot_emp/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_ot_emp/questions/CMP_OT_EMP_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_ot_emp"
+EVAL_QUICK_TEST = "I'm part time. Is overtime based on what I normally work?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_ot_emp/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/cmp_ot_emp/files/md"
+#input_file = "F:/rag_sdk/datasets/cmp_ot_emp/files/md/KAI_NW_PLAN.md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_ot_emp/CMP_OT_EMP_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_ot_emp/CMP_OT_EMP_chunk_analysis.xlsx"
+
+
+Cmp 401K
+=========
+PDF
+---
+EVAL_NAME = "CMP_401K_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_401K/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_401K/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_401K/questions/CMP_401K_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_401K"
+EVAL_QUICK_TEST = "How do I enroll in the 401k plan?"
+
+Markdown
+--------
+EVAL_NAME = "CMP_401K_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_401K/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_401K/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_401K/questions/CMP_401K_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_401K"
+EVAL_QUICK_TEST = "How do I enroll in the 401k plan?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_401K/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/cmp_401K/files/md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_401K/CMP_401K_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_401K/CMP_401K_chunk_analysis.xlsx"
+
+
+Cmp UK RSU
+=========
+PDF
+---
+EVAL_NAME = "CMP_UK_RSU_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_uk_rsu/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_uk_rsu/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_uk_rsu/questions/CMP_UK_RSU_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_uk_rsu"
+EVAL_QUICK_TEST = "What type of taxes do I pay on my RSUs?"
+
+Markdown
+--------
+EVAL_NAME = "CMP_UK_RSU_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_uk_rsu/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_uk_rsu/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_uk_rsu/questions/CMP_UK_RSU_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_uk_rsu"
+EVAL_QUICK_TEST = "What type of taxes do I pay on my RSUs?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_uk_rsu/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/cmp_uk_rsu/files/md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_uk_rsu/CMP_UK_RSU_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_uk_rsu/CMP_UK_RSU_chunk_analysis.xlsx"
+
+Cmp NON US RSU
+=========
+PDF
+---
+EVAL_NAME = "CMP_NONUS_RSU_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_nonus_rsu/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_nonus_rsu/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_nonus_rsu/questions/CMP_NONUS_RSU_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_nonus_rsu"
+EVAL_QUICK_TEST = "What happens when my RSUs vest?"
+
+Markdown
+--------
+EVAL_NAME = "CMP_NONUS_RSU_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_nonus_rsu/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_nonus_rsu/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_nonus_rsu/questions/CMP_NONUS_RSU_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_nonus_rsu"
+EVAL_QUICK_TEST = "What happens when my RSUs vest?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_nonus_rsu/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/cmp_nonus_rsu/files/md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/CMP_NONUS_RSU_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/CMP_NONUS_RSU_chunk_analysis.xlsx"
+
+
+Cmp Proc Guide
+=========
+PDF
+---
+EVAL_NAME = "CMP_PROC_GUIDE_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_proc_guide/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_proc_guide/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_proc_guide/questions/CMP_PROC_GUIDE_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_proc_guide"
+EVAL_QUICK_TEST = "One of the sponsors I am using has some questions around PII security, what should I do?"
+
+Markdown
+--------
+EVAL_NAME = "CMP_PROC_GUIDE_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_proc_guide/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_proc_guide/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_proc_guide/questions/CMP_PROC_GUIDE_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_proc_guide"
+EVAL_QUICK_TEST = "One of the sponsors I am using has some questions around PII security, what should I do?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_proc_guide/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/cmp_proc_guide/files/md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/CMP_PROC_GUIDE_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/CMP_PROC_GUIDE_chunk_analysis.xlsx"

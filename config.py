@@ -8,33 +8,27 @@ import os
 #GOOGLE_API_KEY = ""
 #LANGCHAIN_API_KEY = ""
 
-
-
-EVAL_NAME = "CMP_COMP_01" 
-EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_comp/files/md" 
-EVAL_FILE = "F:/rag_sdk/datasets/cmp_comp/files/md/"
-EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_comp/questions/CMP_COMP_01_Q.xlsx"
-EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_comp"
-EVAL_QUICK_TEST = "Who is our workers comp provider?"
-
 # OPENAI, COHERE, ANTHROPIC, GOOGLE, META, QWEN, MISTRALAI
-GENERATION_LLM_FAMILY = "ANTHROPIC" 
+GENERATION_LLM_FAMILY = "COHERE" 
 
 # gpt-4o, command-r, command-r-plus, claude-3-5-sonnet-20240620, models/gemini-1.5-pro, 
-# meta-llama/Llama-3-70b-chat-hf, Qwen/Qwen2-72B-Instruct, mistralai/Mixtral-8x22B-Instruct-v0.1
-GENERATION_LLM_MODEL = "claude-3-5-sonnet-20240620"
+# meta-llama/Llama-3-70b-chat-hf, meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo, meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo, 
+# Qwen/Qwen2-72B-Instruct, mistralai/Mixtral-8x22B-Instruct-v0.1
+#accounts/fireworks/models/llama-v3p1-405b-instruct, accounts/fireworks/models/llama-v3p1-70b-instruct
+
+GENERATION_LLM_MODEL = "command-r"
 
 # OPENAI, COHERE, GOOGLE
-EMBEDDING_LLM_FAMILY = "OPENAI" 
+EMBEDDING_LLM_FAMILY = "COHERE" 
 
 # text-embedding-3-large, embed-english-v3.0, models/text-embedding-004
-EMBEDDING_LLM_MODEL = "text-embedding-3-large" 
+EMBEDDING_LLM_MODEL = "embed-english-v3.0" 
 EMBEDDING_DIMESIONS = 1024
 
 EVALUATION_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
 EVALUATION_LLM_MODEL = "gpt-4-0125-preview" # gpt-4o, gpt-4-0125-preview
 
-RAG_STRATEGY = "S007_00"
+RAG_STRATEGY = "S008_00"
 
 # Common Setting
 CHUNK_SIZE = 512
@@ -59,8 +53,10 @@ FUSION_RERANKER = "reciprocal_rerank" # reciprocal_rerank, relative_score, dist_
 
 
 #S008 -> Black Box 
+BB_OUTPUT_FILE = ""
 
-BB_OUTPUT_FILE = "F:/rag_sdk/scratch/ACME_SPD_01_OCI_TXT.xlsx"
+#S009 -> Retriever 
+RTR_OUTPUT_FILE = ""
 
 
 # Standard Langchain prompt
