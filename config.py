@@ -8,6 +8,17 @@ import os
 #GOOGLE_API_KEY = ""
 #LANGCHAIN_API_KEY = ""
 
+
+EVAL_NAME = "SOW_CBA_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/sow_cba/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/sow_cba/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/sow_cba/questions/SOW_CBA_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/sow_cba"
+EVAL_QUICK_TEST = "Who is my employer?"
+#EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
+
 # OPENAI, COHERE, ANTHROPIC, GOOGLE, META, QWEN, MISTRALAI
 GENERATION_LLM_FAMILY = "COHERE" 
 
@@ -28,7 +39,7 @@ EMBEDDING_DIMESIONS = 1024
 EVALUATION_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
 EVALUATION_LLM_MODEL = "gpt-4-0125-preview" # gpt-4o, gpt-4-0125-preview
 
-RAG_STRATEGY = "S008_00"
+RAG_STRATEGY = "S007_00"
 
 # Common Setting
 CHUNK_SIZE = 512
@@ -53,7 +64,7 @@ FUSION_RERANKER = "reciprocal_rerank" # reciprocal_rerank, relative_score, dist_
 
 
 #S008 -> Black Box 
-BB_OUTPUT_FILE = ""
+BB_OUTPUT_FILE = "F:/rag_sdk/evaluations/black_box/ALB_NON_UNION_BEN_01_FAI_07_30.xlsx"
 
 #S009 -> Retriever 
 RTR_OUTPUT_FILE = ""

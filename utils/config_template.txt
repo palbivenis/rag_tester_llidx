@@ -334,3 +334,33 @@ Chunk Analyzer
 input_directory = "F:/rag_sdk/datasets/cmp_proc_guide/files/md"
 chunked_file = "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/CMP_PROC_GUIDE_chunked.md"
 analysis_file = "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/CMP_PROC_GUIDE_chunk_analysis.xlsx"
+
+SOW CBA
+=======
+
+PDF
+---
+EVAL_NAME = "SOW_CBA_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/sow_cba/files/pdf" 
+EVAL_FILE = "F:/rag_sdk/datasets/sow_cba/files/pdf/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/sow_cba/questions/SOW_CBA_01_QA.json"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/sow_cba"
+EVAL_QUICK_TEST = "Who is my employer?"
+
+Markdown
+--------
+EVAL_NAME = "SOW_CBA_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/sow_cba/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/sow_cba/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/sow_cba/questions/SOW_CBA_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/sow_cba"
+EVAL_QUICK_TEST = "Who is my employer?"
+EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_OAI"
+#EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_COH"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
+
+Chunk Analyzer
+----------------
+input_directory = "F:/rag_sdk/datasets/sow_cba/files/md"
+chunked_file = "F:/rag_sdk/evaluations/diagnostics/sow_cba/SOW_CBA_chunked.md"
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/sow_cba/SOW_CBA_chunk_analysis.xlsx"
