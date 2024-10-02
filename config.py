@@ -9,31 +9,33 @@ import os
 #LANGCHAIN_API_KEY = ""
 
 
-EVAL_NAME = "SOW_CBA_01" 
-EVAL_DIRECTORY = "F:/rag_sdk/datasets/sow_cba/files/md" 
-EVAL_FILE = "F:/rag_sdk/datasets/sow_cba/files/md/"
-EVAL_QUESTIONS = "F:/rag_sdk/datasets/sow_cba/questions/SOW_CBA_01_QA.xlsx"
-EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/sow_cba"
-EVAL_QUICK_TEST = "Who is my employer?"
-#EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_OAI"
-EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_COH"
-EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
+EVAL_NAME = "CMP_HOSTING_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_hosting/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_hosting/files/md/*.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_hosting/questions/CMP_HOSTING_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_hosting"
+EVAL_QUICK_TEST = "My company is in Italy, which data center region is my data hosted in?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_hosting/db/CMP_HOSTING_01_007_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_hosting/db/CMP_HOSTING_01_007_COH_3"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_hosting/prompts" 
+ 
+
 
 # OPENAI, COHERE, ANTHROPIC, GOOGLE, META, QWEN, MISTRALAI
-GENERATION_LLM_FAMILY = "COHERE" 
+GENERATION_LLM_FAMILY = "OPENAI" 
 
 # gpt-4o, command-r, command-r-plus, claude-3-5-sonnet-20240620, models/gemini-1.5-pro, 
 # meta-llama/Llama-3-70b-chat-hf, meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo, meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo, 
 # Qwen/Qwen2-72B-Instruct, mistralai/Mixtral-8x22B-Instruct-v0.1
 #accounts/fireworks/models/llama-v3p1-405b-instruct, accounts/fireworks/models/llama-v3p1-70b-instruct
 
-GENERATION_LLM_MODEL = "command-r"
+GENERATION_LLM_MODEL = "gpt-4o"
 
 # OPENAI, COHERE, GOOGLE
-EMBEDDING_LLM_FAMILY = "COHERE" 
+EMBEDDING_LLM_FAMILY = "OPENAI" 
 
 # text-embedding-3-large, embed-english-v3.0, models/text-embedding-004
-EMBEDDING_LLM_MODEL = "embed-english-v3.0" 
+EMBEDDING_LLM_MODEL = "text-embedding-3-large" 
 EMBEDDING_DIMESIONS = 1024
 
 EVALUATION_LLM_FAMILY = "OPENAI" # OPENAI, COHERE
@@ -62,12 +64,17 @@ SUB_CHUNK_SIZES = "128_256_512"
 RETRIEVER_WEIGHTS = "0.5_0.5"
 FUSION_RERANKER = "reciprocal_rerank" # reciprocal_rerank, relative_score, dist_based_score, simple
 
+#S007 -> Semantic
+HEADER_LEVELS = 5
 
 #S008 -> Black Box 
 BB_OUTPUT_FILE = "F:/rag_sdk/evaluations/black_box/ALB_NON_UNION_BEN_01_FAI_07_30.xlsx"
 
 #S009 -> Retriever 
 RTR_OUTPUT_FILE = ""
+
+# S010 -> LC Ensemble Retriever
+LC_ENSEMBLE_WEIGHTS = "1.0_0.0"
 
 
 # Standard Langchain prompt

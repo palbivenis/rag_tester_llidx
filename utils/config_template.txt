@@ -18,9 +18,29 @@ EVAL_FILE = "F:/rag_sdk/datasets/acme_spd/files/pdf/ACME_SPD.md"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/acme_spd"
 EVAL_QUICK_TEST = "Are bifocals covered?"
-EVAL_DB = "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI_3_LARGE"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/acme_spd/prompts" 
 
+analysis_file = "F:/rag_sdk/evaluations/diagnostics/acme_spd/ACME_SPD_chunk_analysis.xlsx"
+
+S007_Automated
+-------------------
+"other_configurations": {
+    "EVAL_NAME": "ACME_SPD_01",
+    "EVAL_DIRECTORY": "F:/rag_sdk/datasets/acme_spd/files/md",
+    "EVAL_FILE": "F:/rag_sdk/datasets/acme_spd/files/pdf/ACME_SPD.md",
+    "EVAL_QUESTIONS": "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.xlsx",
+    "EVAL_RESULTS_DIR": "F:/rag_sdk/evaluations/data/acme_spd",
+    "EVAL_QUICK_TEST": "Are bifocals covered?",
+    "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI_3_LARGE",
+    "RAG_STRATEGY": "S007_00",
+    "SIMILARITY_TOP_K": 30,
+    "HEADER_LEVELS": 5,
+    "RAG_PROMPT_TEMPLATE": "Your prompt template here",
+    "EVALUATION_LLM_FAMILY": "OPENAI",
+    "EVALUATION_LLM_MODEL": "gpt-4-0125-preview",
+    "EMBEDDING_DIMENSIONS": 768
+  }
 
 Chunk Analyzer
 --------------
@@ -47,7 +67,7 @@ EVAL_FILE = "F:/rag_sdk/datasets/alb_union_ben/files/md/ALB_UNION_BEN.md"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/alb_union_ben/questions/ALB_UNION_BEN_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/alb_union_ben"
 EVAL_QUICK_TEST = "Are bifocals covered?"
-EVAL_DB = "F:/rag_sdk/datasets/alb_union_ben/db/ALB_UNION_BEN_01_007_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/alb_union_ben/db/ALB_UNION_BEN_01_007_OAI_3_LARGE"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/alb_union_ben/prompts" 
 
 Chunk Analyzer
@@ -75,7 +95,7 @@ EVAL_FILE = "F:/rag_sdk/datasets/alb_non_union_ben/files/md/ALB_NON_UNION_BEN.md
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/alb_non_union_ben/questions/ALB_NON_UNION_BEN_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/alb_non_union_ben"
 EVAL_QUICK_TEST = "Are bifocals covered?"
-EVAL_DB = "F:/rag_sdk/datasets/alb_non_union_ben/db/ALB_NON_UNION_BEN_01_007_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/alb_non_union_ben/db/ALB_NON_UNION_BEN_01_007_OAI_3_LARGE"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/alb_non_union_ben/prompts" 
 
 
@@ -105,7 +125,7 @@ EVAL_FILE = "F:/rag_sdk/datasets/itpeu_spd/files/md/ITPEU_SPD.md"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/itpeu_spd"
 EVAL_QUICK_TEST = "Are bifocals covered?"
-EVAL_DB = "F:/rag_sdk/datasets/itpeu_spd/db/ITPEU_SPD_01_01_007_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/itpeu_spd/db/ITPEU_SPD_01_01_007_OAI_3_LARGE"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/itpeu_spd/prompts" 
 
 Chunk Analyzer
@@ -134,7 +154,7 @@ EVAL_QUESTIONS = "F:/rag_sdk/datasets/kai_nw_plan/questions/KAI_NW_PLAN_01_QA.xl
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/kai_nw_plan"
 EVAL_QUICK_TEST = "Are bifocals covered?"
 
-EVAL_DB = "F:/rag_sdk/datasets/kai_nw_plan/db/KAI_NW_PLAN_01_007_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/kai_nw_plan/db/KAI_NW_PLAN_01_007_OAI_3_LARGE"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/kai_nw_plan/prompts" 
 
 Chunk Analyzer
@@ -162,7 +182,7 @@ EVAL_FILE = "F:/rag_sdk/datasets/cmp_leave/files/pdf/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_leave/questions/CMP_LEAVE_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_leave"
 EVAL_QUICK_TEST = "Can I take time off to care for my cousin?"
-EVAL_DB = "F:/rag_sdk/datasets/cmp_leave/db/CMP_LEAVE_01_OAI"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_leave/db/CMP_LEAVE_01_OAI_3_LARGE"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_leave/prompts" 
 
 Chunk Analyzer
@@ -181,8 +201,8 @@ EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_ka/questions/CMP_KA_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_ka"
 EVAL_QUICK_TEST = "How do I create my first job requision?"
 
-EVAL_DB = "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_COH"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_ka/prompts" 
 
 
@@ -205,8 +225,8 @@ EVAL_FILE = "F:/rag_sdk/datasets/cmp_ot_emp/files/md/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_ot_emp/questions/CMP_OT_EMP_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_ot_emp"
 EVAL_QUICK_TEST = "I'm part time. Is overtime based on what I normally work?"
-EVAL_DB = "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_COH"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_ot_emp/prompts" 
 
 Chunk Analyzer
@@ -236,8 +256,8 @@ EVAL_FILE = "F:/rag_sdk/datasets/cmp_401K/files/md/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_401K/questions/CMP_401K_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_401K"
 EVAL_QUICK_TEST = "How do I enroll in the 401k plan?"
-EVAL_DB = "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_COH"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_401K/prompts" 
 
 Chunk Analyzer
@@ -266,8 +286,8 @@ EVAL_FILE = "F:/rag_sdk/datasets/cmp_uk_rsu/files/md/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_uk_rsu/questions/CMP_UK_RSU_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_uk_rsu"
 EVAL_QUICK_TEST = "What type of taxes do I pay on my RSUs?"
-EVAL_DB = "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_COH"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_uk_rsu/prompts" 
 
 Chunk Analyzer
@@ -295,8 +315,8 @@ EVAL_FILE = "F:/rag_sdk/datasets/cmp_nonus_rsu/files/md/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_nonus_rsu/questions/CMP_NONUS_RSU_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_nonus_rsu"
 EVAL_QUICK_TEST = "What happens when my RSUs vest?"
-EVAL_DB = "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_COH"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_nonus_rsu/prompts" 
 
 Chunk Analyzer
@@ -325,8 +345,8 @@ EVAL_FILE = "F:/rag_sdk/datasets/cmp_proc_guide/files/md/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_proc_guide/questions/CMP_PROC_GUIDE_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_proc_guide"
 EVAL_QUICK_TEST = "One of the sponsors I am using has some questions around PII security, what should I do?"
-EVAL_DB = "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_COH"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_proc_guide/prompts" 
 
 Chunk Analyzer
@@ -355,8 +375,8 @@ EVAL_FILE = "F:/rag_sdk/datasets/sow_cba/files/md/"
 EVAL_QUESTIONS = "F:/rag_sdk/datasets/sow_cba/questions/SOW_CBA_01_QA.xlsx"
 EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/sow_cba"
 EVAL_QUICK_TEST = "Who is my employer?"
-EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_OAI"
-#EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_COH"
+EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/sow_cba/db/SOW_CBA_01_COH_3"
 EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
 
 Chunk Analyzer
@@ -364,3 +384,69 @@ Chunk Analyzer
 input_directory = "F:/rag_sdk/datasets/sow_cba/files/md"
 chunked_file = "F:/rag_sdk/evaluations/diagnostics/sow_cba/SOW_CBA_chunked.md"
 analysis_file = "F:/rag_sdk/evaluations/diagnostics/sow_cba/SOW_CBA_chunk_analysis.xlsx"
+
+
+ISO_13485_2016
+================
+
+Markdown
+--------
+EVAL_NAME = "ISO_13485_2016_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/ISO_13485_2016/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/ISO_13485_2016/files/md/"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/ISO_13485_2016/questions/ISO_13485_2016_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/ISO_13485_2016"
+EVAL_QUICK_TEST = "What do I need to document for each medical device?"
+EVAL_DB = "F:/rag_sdk/datasets/ISO_13485_2016/db/ISO_13485_2016_S007_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/ISO_13485_2016/db/ISO_13485_2016_S007_COH_3"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
+
+
+DELL_I14_COMPLIANCE
+================
+
+Markdown
+--------
+EVAL_NAME = "DELL_I14_COMPLIANCE_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/dell_i14_compliance/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/dell_i14_compliance/files/md/*.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/dell_i14_compliance/questions/DELL_I14_COMPLIANCE_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/dell_i14_compliance"
+EVAL_QUICK_TEST = "What safety certifications does the Dell Inspiron 14 comply with?"
+EVAL_DB = "F:/rag_sdk/datasets/dell_i14_compliance/db/DELL_I14_COMPLIANCE_01_007_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/dell_i14_compliance/db/DELL_I14_COMPLIANCE_01_007_COH_3"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
+
+
+CMP_OCAM
+================
+
+Markdown
+--------
+EVAL_NAME = "CMP_OCAM_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_ocam/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_ocam/files/md/*.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_ocam/questions/CMP_OCAM_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_ocam"
+EVAL_QUICK_TEST = "What is the Direct Approval Chain?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_ocam/db/CMP_OCAM_01_007_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_ocam/db/DCMP_OCAM_01_007_COH_3"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/sow_cba/prompts" 
+
+CMP_HOSTING
+================
+
+Markdown
+--------
+EVAL_NAME = "CMP_HOSTING_01" 
+EVAL_DIRECTORY = "F:/rag_sdk/datasets/cmp_hosting/files/md" 
+EVAL_FILE = "F:/rag_sdk/datasets/cmp_hosting/files/md/*.md"
+EVAL_QUESTIONS = "F:/rag_sdk/datasets/cmp_hosting/questions/CMP_HOSTING_01_QA.xlsx"
+EVAL_RESULTS_DIR = "F:/rag_sdk/evaluations/data/cmp_hosting"
+EVAL_QUICK_TEST = "My company is in Italy, which data center region is my data hosted in?"
+EVAL_DB = "F:/rag_sdk/datasets/cmp_hosting/db/CMP_HOSTING_01_007_OAI_3_LARGE"
+#EVAL_DB = "F:/rag_sdk/datasets/cmp_hosting/db/CMP_HOSTING_01_007_COH_3"
+EVAL_PROMPTS_DIR = "F:/rag_sdk/datasets/cmp_hosting/prompts" 
+
+
+

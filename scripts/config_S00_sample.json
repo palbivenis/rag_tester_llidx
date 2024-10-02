@@ -1,0 +1,64 @@
+{
+    "model_pairs": [
+      {
+        "generation_llm_family": "OPENAI",
+        "generation_llm_model": "gpt-4o",
+        "embedding_llm_family": "OPENAI",
+        "embedding_llm_model": "text-embedding-3-large",
+        "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI"
+      },
+      {
+        "generation_llm_family": "ANTHROPIC",
+        "generation_llm_model": "claude-3-5-sonnet-20240620",
+        "embedding_llm_family": "OPENAI",
+        "embedding_llm_model": "text-embedding-3-large",
+        "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI"
+      },
+      {
+        "generation_llm_family": "META",
+        "generation_llm_model": "accounts/fireworks/models/llama-v3p1-405b-instruct",
+        "embedding_llm_family": "OPENAI",
+        "embedding_llm_model": "text-embedding-3-large",
+        "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI"
+      },
+      {
+        "generation_llm_family": "META",
+        "generation_llm_model": "accounts/fireworks/models/llama-v3p1-70b-instruct",
+        "embedding_llm_family": "OPENAI",
+        "embedding_llm_model": "text-embedding-3-large",
+        "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI"
+      },
+      {
+        "generation_llm_family": "COHERE",
+        "generation_llm_model": "command-r-plus",
+        "embedding_llm_family": "COHERE",
+        "embedding_llm_model": "embed-english-v3.0",
+        "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_COH"
+      },
+      {
+        "generation_llm_family": "COHERE",
+        "generation_llm_model": "command-r",
+        "embedding_llm_family": "COHERE",
+        "embedding_llm_model": "embed-english-v3.0",
+        "EVAL_DB": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_COH"
+      }
+    ],
+    "other_configurations": {
+      "EVAL_NAME": "ACME_SPD_01",
+      "EVAL_DIRECTORY": "F:/rag_sdk/datasets/acme_spd/files/md",
+      "EVAL_FILE": "F:/rag_sdk/datasets/acme_spd/files/pdf/ACME_SPD.md",
+      "EVAL_QUESTIONS": "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.xlsx",
+      "EVAL_RESULTS_DIR": "F:/rag_sdk/evaluations/data/acme_spd",
+      "EVAL_QUICK_TEST": "Are bifocals covered?",
+      "RAG_STRATEGY": "S007_00",
+      "SIMILARITY_TOP_K": 30,
+      "HEADER_LEVELS": 5,
+      "EVALUATION_LLM_FAMILY": "OPENAI",
+      "EVALUATION_LLM_MODEL": "gpt-4-0125-preview",
+      "EMBEDDING_DIMENSIONS": 768
+    },
+    "rag_prompt_template": {
+      "template": "You are an assistant for question-answering tasks. Use the retrieved context, consisting of these documents, to answer the question. If you don't know the answer, just say that you don't know. Provide a detailed response, but do not invent stuff.\nContext: {context}\nQuestion: {question}"
+    }
+  }
+  

@@ -1,0 +1,327 @@
+{
+    "preamble": "You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Provide a detailed response, but do not invent stuff\n\nContext:\n",
+    "similarity_top_k": 30,
+    "log_dir": "F:/rag_sdk/evaluations/log/S007_semantic_prompt_generator",
+    "vector_stores": [
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "ACME_SPD_01",
+            "eval_questions": "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/acme_spd/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/acme_spd/db/ACME_SPD_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "ACME_SPD_01",
+            "eval_questions": "F:/rag_sdk/datasets/acme_spd/questions/ACME_SPD_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/acme_spd/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/alb_union_ben/db/ALB_UNION_BEN_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "ALB_UNION_BEN_01",
+            "eval_questions": "F:/rag_sdk/datasets/alb_union_ben/questions/ALB_UNION_BEN_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/alb_union_ben/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/alb_union_ben/db/ALB_UNION_BEN_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "ALB_UNION_BEN_01",
+            "eval_questions": "F:/rag_sdk/datasets/alb_union_ben/questions/ALB_UNION_BEN_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/alb_union_ben/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/alb_non_union_ben/db/ALB_NON_UNION_BEN_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "ALB_NON_UNION_BEN_01",
+            "eval_questions": "F:/rag_sdk/datasets/alb_non_union_ben/questions/ALB_NON_UNION_BEN_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/alb_non_union_ben/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/alb_non_union_ben/db/ALB_NON_UNION_BEN_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "ALB_NON_UNION_BEN_01",
+            "eval_questions": "F:/rag_sdk/datasets/alb_non_union_ben/questions/ALB_NON_UNION_BEN_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/alb_non_union_ben/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/itpeu_spd/db/ITPEU_SPD_01_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "ITPEU_SPD_01",
+            "eval_questions": "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/itpeu_spd/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/itpeu_spd/db/ITPEU_SPD_01_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "ITPEU_SPD_01",
+            "eval_questions": "F:/rag_sdk/datasets/itpeu_spd/questions/ITPEU_SPD_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/itpeu_spd/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/kai_nw_plan/db/KAI_NW_PLAN_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "KAI_NW_PLAN_01",
+            "eval_questions": "F:/rag_sdk/datasets/kai_nw_plan/questions/KAI_NW_PLAN_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/kai_nw_plan/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/kai_nw_plan/db/KAI_NW_PLAN_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "KAI_NW_PLAN_01",
+            "eval_questions": "F:/rag_sdk/datasets/kai_nw_plan/questions/KAI_NW_PLAN_01_QA.xlsx",
+            "eval_quick_test": "Are bifocals covered?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/kai_nw_plan/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_leave/db/CMP_LEAVE_01_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_LEAVE_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_leave/questions/CMP_LEAVE_01_QA.xlsx",
+            "eval_quick_test": "Can I take time off to care for my cousin?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_leave/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_leave/db/CMP_LEAVE_01_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_LEAVE_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_leave/questions/CMP_LEAVE_01_QA.xlsx",
+            "eval_quick_test": "Can I take time off to care for my cousin?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_leave/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_KA_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_ka/questions/CMP_KA_01_QA.xlsx",
+            "eval_quick_test": "How do I create my first job requisition?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_ka/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_ka/db/CMP_KA_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_KA_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_ka/questions/CMP_KA_01_QA.xlsx",
+            "eval_quick_test": "How do I create my first job requisition?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_ka/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_OT_EMP_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_ot_emp/questions/CMP_OT_EMP_01_QA.xlsx",
+            "eval_quick_test": "I'm part time. Is overtime based on what I normally work?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_ot_emp/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_ot_emp/db/CMP_OT_EMP_01_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_OT_EMP_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_ot_emp/questions/CMP_OT_EMP_01_QA.xlsx",
+            "eval_quick_test": "I'm part time. Is overtime based on what I normally work?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_ot_emp/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_401K_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_401K/questions/CMP_401K_01_QA.xlsx",
+            "eval_quick_test": "How do I enroll in the 401k plan?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_401K/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_401K/db/CMP_401K_01_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_401K_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_401K/questions/CMP_401K_01_QA.xlsx",
+            "eval_quick_test": "How do I enroll in the 401k plan?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_401K/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_UK_RSU_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_uk_rsu/questions/CMP_UK_RSU_01_QA.xlsx",
+            "eval_quick_test": "What type of taxes do I pay on my RSUs?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_uk_rsu/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_uk_rsu/db/CMP_UK_RSU_01_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_UK_RSU_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_uk_rsu/questions/CMP_UK_RSU_01_QA.xlsx",
+            "eval_quick_test": "What type of taxes do I pay on my RSUs?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_uk_rsu/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_NONUS_RSU_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_nonus_rsu/questions/CMP_NONUS_RSU_01_QA.xlsx",
+            "eval_quick_test": "What happens when my RSUs vest?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_nonus_rsu/db/CMP_NONUS_RSU_01_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_NONUS_RSU_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_nonus_rsu/questions/CMP_NONUS_RSU_01_QA.xlsx",
+            "eval_quick_test": "What happens when my RSUs vest?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_PROC_GUIDE_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_proc_guide/questions/CMP_PROC_GUIDE_01_QA.xlsx",
+            "eval_quick_test": "One of the sponsors I am using has some questions around PII security, what should I do?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_proc_guide/db/CMP_PROC_GUIDE_01_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_PROC_GUIDE_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_proc_guide/questions/CMP_PROC_GUIDE_01_QA.xlsx",
+            "eval_quick_test": "One of the sponsors I am using has some questions around PII security, what should I do?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/ISO_13485_2016/db/ISO_13485_2016_S007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "ISO_13485_2016_01",
+            "eval_questions": "F:/rag_sdk/datasets/ISO_13485_2016/questions/ISO_13485_2016_01_QA.xlsx",
+            "eval_quick_test": "What do I need to document for each medical device?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/ISO_13485_2016/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/ISO_13485_2016/db/ISO_13485_2016_S007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "ISO_13485_2016_01",
+            "eval_questions": "F:/rag_sdk/datasets/ISO_13485_2016/questions/ISO_13485_2016_01_QA.xlsx",
+            "eval_quick_test": "What do I need to document for each medical device?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/ISO_13485_2016/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/dell_i14_compliance/db/DELL_I14_COMPLIANCE_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "DELL_I14_COMPLIANCE_01",
+            "eval_questions": "F:/rag_sdk/datasets/dell_i14_compliance/questions/DELL_I14_COMPLIANCE_01_QA.xlsx",
+            "eval_quick_test": "What safety certifications does the Dell Inspiron 14 comply with?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/dell_i14_compliance/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/dell_i14_compliance/db/DELL_I14_COMPLIANCE_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "DELL_I14_COMPLIANCE_01",
+            "eval_questions": "F:/rag_sdk/datasets/dell_i14_compliance/questions/DELL_I14_COMPLIANCE_01_QA.xlsx",
+            "eval_quick_test": "What safety certifications does the Dell Inspiron 14 comply with?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/dell_i14_compliance/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_ocam/db/CMP_OCAM_01_007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "CMP_OCAM_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_ocam/questions/CMP_OCAM_01_QA.xlsx",
+            "eval_quick_test": "What is the Direct Approval Chain?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_ocam/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/cmp_ocam/db/CMP_OCAM_01_007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "CMP_OCAM_01",
+            "eval_questions": "F:/rag_sdk/datasets/cmp_ocam/questions/CMP_OCAM_01_QA.xlsx",
+            "eval_quick_test": "What is the Direct Approval Chain?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/cmp_ocam/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/IM_21CFR_DrugHandling/db/IM_21CFR_DrugHandling_S007_OAI_3_LARGE",
+            "embedding_llm_family": "OPENAI",
+            "embedding_llm_model": "text-embedding-3-large",
+            "embedding_dimensions": 3072,
+            "eval_name": "IM_21CFR_DrugHandling_01",
+            "eval_questions": "F:/rag_sdk/datasets/IM_21CFR_DrugHandling/questions/IM_21CFR_DrugHandling_01_QA.xlsx",
+            "eval_quick_test": "What does medicated feed mean?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/IM_21CFR_DrugHandling/prompts"
+        },
+        {
+            "vector_store_path": "F:/rag_sdk/datasets/IM_21CFR_DrugHandling/db/IM_21CFR_DrugHandling_S007_COH_3",
+            "embedding_llm_family": "COHERE",
+            "embedding_llm_model": "embed-english-v3.0",
+            "embedding_dimensions": 1024,
+            "eval_name": "IM_21CFR_DrugHandling_01",
+            "eval_questions": "F:/rag_sdk/datasets/IM_21CFR_DrugHandling/questions/IM_21CFR_DrugHandling_01_QA.xlsx",
+            "eval_quick_test": "What does medicated feed mean?",
+            "eval_prompts_dir": "F:/rag_sdk/evaluations/diagnostics/IM_21CFR_DrugHandling/prompts"
+        }
+    ]
+}

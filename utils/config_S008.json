@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bb_output_file": "path/to/file1.xlsx",
+      "eval_questions": "path/to/eval_questions1.xlsx",
+      "other_params": {
+        "eval_name": "eval1",
+        "rag_strategy": "S008_00",
+        "generation_llm_family": "OPENAI",
+        "generation_llm_model": "gpt-3.5-turbo",
+        "embedding_llm_family": "OPENAI",
+        "embedding_llm_model": "text-embedding-ada-002",
+        "embedding_dimensions": 1536,
+        "evaluation_llm_family": "OPENAI",
+        "evaluation_llm_model": "gpt-3.5-turbo"
+      }
+    },
+    {
+      "bb_output_file": "path/to/file2.json",
+      "eval_questions": "path/to/eval_questions2.xlsx",
+      "other_params": {
+        "eval_name": "eval2",
+        "rag_strategy": "S008_01",
+        "generation_llm_family": "COHERE",
+        "generation_llm_model": "cohere-command",
+        "embedding_llm_family": "COHERE",
+        "embedding_llm_model": "cohere-embed-multilingual-v2.0",
+        "embedding_dimensions": 768,
+        "evaluation_llm_family": "COHERE",
+        "evaluation_llm_model": "cohere-command"
+      }
+    }
+  ],
+  "eval_results_dir": "path/to/eval_results_dir"
+}

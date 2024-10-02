@@ -1,0 +1,124 @@
+{
+    "processing_tasks": [
+        {
+            "input_directory": "F:/rag_sdk/datasets/acme_spd/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/acme_spd/acme_spd_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/acme_spd/acme_spd_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/alb_non_union_ben/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/alb_non_union_ben/alb_non_union_ben_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/alb_non_union_ben/alb_non_union_ben_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/alb_union_ben/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/alb_union_ben/alb_union_ben_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/alb_union_ben/alb_union_ben_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_401K/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_401K/cmp_401K_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_401K/cmp_401K_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_ka/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_ka/cmp_ka_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_ka/cmp_ka_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_leave/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_leave/cmp_leave_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_leave/cmp_leave_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_nonus_rsu/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/cmp_nonus_rsu_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/cmp_nonus_rsu_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_nonus_rsu/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_nonus_rsu/cmp_nonus_rsu_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/acme_spd/ACME_SPD_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_ocam/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_ocam/cmp_ocam_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_ocam/cmp_ocam_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_proc_guide/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/cmp_proc_guide_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_proc_guide/cmp_proc_guide_chunked_S007.xlsx",
+            "header_level": 1
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_uk_rsu/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_uk_rsu/cmp_uk_rsu_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_uk_rsu/cmp_uk_rsu_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/dell_i14_compliance/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/dell_i14_compliance/dell_i14_compliance_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/dell_i14_compliance/dell_i14_compliance_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/IM_21CFR_DrugHandling/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/IM_21CFR_DrugHandling/IM_21CFR_DrugHandling_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/IM_21CFR_DrugHandling/IM_21CFR_DrugHandling_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/ISO_13485_2016/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/ISO_13485_2016/ISO_13485_2016_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/ISO_13485_2016/ISO_13485_2016_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/itpeu_spd/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/itpeu_spd/itpeu_spd_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/itpeu_spd/itpeu_spd_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/kai_nw_plan/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/kai_nw_plan/kai_nw_plan_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/kai_nw_plan/kai_nw_plan_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/cmp_hosting/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/cmp_hosting/cmp_hosting_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/cmp_hosting/cmp_hosting_chunked_S007.xlsx",
+            "header_level": 5
+        },
+        {
+            "input_directory": "F:/rag_sdk/datasets/sow_cba/files/md",
+            "chunked_file": "F:/rag_sdk/evaluations/diagnostics/sow_cba/sow_cba_chunked_S007.md",
+            "analysis_file": "F:/rag_sdk/evaluations/diagnostics/sow_cba/sow_cba_chunked_S007.xlsx",
+            "header_level": 5
+        }
+
+       
+    ],
+    "common_parameters": {
+        "encoding_name": "cl100k_base",
+        "file_glob": "**/*.md",
+        "histogram_bins": 10,
+        "histogram_image": "histogram.png",
+        "token_thresholds": [128, 256, 512],
+        "log_directory": "F:/rag_sdk/evaluations/log/S007_semantic_chunk_analyzer"  
+    }
+}
+
+

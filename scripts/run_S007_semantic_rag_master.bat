@@ -1,0 +1,21 @@
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/acme_spd/config/config_S007_acme_spd_micro_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/acme_spd/config/config_S007_acme_spd_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/alb_non_union_ben/config/config_S007_alb_non_union_ben_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/alb_union_ben/config/config_S007_alb_union_ben_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_401K/config/config_S007_cmp_401K_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_ka/config/config_S007_cmp_ka_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_leave/config/config_S007_cmp_leave_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_nonus_rsu/config/config_S007_cmp_nonus_rsu_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_ot_emp/config/config_S007_cmp_ot_emp_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_uk_rsu/config/config_S007_cmp_uk_rsu_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/kai_nw_plan/config/config_S007_kai_nw_plan_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/itpeu_spd/config/config_S007_itpeu_spd_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_proc_guide/config/config_S007_cmp_proc_guide_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/ISO_13485_2016/config/config_S007_ISO_13485_2016_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/IM_21CFR_DrugHandling/config/config_S007_IM_21CFR_DrugHandling_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/dell_i14_compliance/config/config_S007_dell_i14_compliance_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_ocam/config/config_S007_cmp_ocam_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/sow_cba/config/config_S007_sow_cba_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_hosting/config/config_S007_cmp_hosting_01.json
+C:/Users/sthan/anaconda3/python.exe f:/rag_tester_llidx/scripts/S007_semantic_rag.py F:/rag_sdk/datasets/cmp_col_benefits/config/config_S007_cmp_col_benefits_01.json
+
